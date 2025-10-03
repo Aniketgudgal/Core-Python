@@ -1,0 +1,9 @@
+#Q2. Write a java program to input all basic data types and print its output.
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+print("Addition of two number is: ",a+b)
+print("Substraction of two number is: ",a-b)
+print("Multiplication of two number is: ",a*b)
+print("Division of two number is: ",a/b)
