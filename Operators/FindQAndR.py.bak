@@ -1,0 +1,11 @@
+''' Q29. Given two integers, write a python program to find the quotient and remainder using only arithmetic operators.
+Input: dividend = 20, divisor = 3 Output: Quotient = 6, Remainder = 2 '''
+
+dividend = int(input("Enter the dividend"))
+divisor = int(input("Enter the divisor"))
+
+Quotient = dividend / divisor
+print("Quotient: ",Quotient)
+
+remainder = dividend % divisor
+print("Remainder: ",remainder)
