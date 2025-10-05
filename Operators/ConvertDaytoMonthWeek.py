@@ -1,0 +1,13 @@
+''' Q18. Write a python program to convert days to years, month and week. '''
+
+days = int(input("Enter the days: "))
+
+years = days / 365 
+
+month = days // 30
+
+week = days // 7
+
+print("The years is: ",years)
+print("The month is: ",month)
+print("The week is: ",week)
