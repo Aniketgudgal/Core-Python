@@ -1,0 +1,12 @@
+''' Q22. Write a python program to find first and last digit of a number without using loop in three digit. '''
+
+num = int(input("Enter the 3 digit number: "))
+
+last = num % 10 # extract the last digit from number
+
+num = num // 100 # remove the two digit in given number
+first = num % 10 # take the remaining digit that is first digit
+
+#print digits in console window
+print("The first digit number is: ",first)
+print("The last digit number is: ",last)
