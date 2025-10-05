@@ -1,0 +1,16 @@
+''' Q 5. Write a java program to enter radius of a circle and find its diameter,area and circumference.
+Formula :-
+diameter=2 * radius;
+circumference = 2 * 3.14 * radius; 
+area = 3.14 * radius * radius; '''
+
+radius = float(input("Enter the radius of circle: "))
+
+diameter = 2 * radius
+print("The Diameter of circle is: ",diameter)
+
+circumference = 2*3.14*radius
+print("Circumference of circle is: ",circumference)
+
+area = 3.14*radius*radius
+print("Area of circle is: ",area)
