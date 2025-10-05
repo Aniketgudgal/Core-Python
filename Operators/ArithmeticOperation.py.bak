@@ -5,7 +5,8 @@ c = a+b;
 d = a - b;
 e = a * b;
 f = a / b;
-g = a % b;
+g = a // b; # division without fraction
+h = a % b;
 # print("Addition of two number is: "(a+b))
 print("Addition of two number is: ",c)
 
@@ -15,8 +16,11 @@ print("Substration of two number is: ",d)
 # print("Multiplication of two number is: "(a*b))
 print("Multiplication of two number is: ",e)
 
-# print("Divison of two number is: "),(a/b)
-print("Divison of two number is: ",f)
+#print("Divison of two number is: "(a/b))
+print("division of two number is: ",f)
+
+# print("division without fraction is: "(a//b))
+print("Divison without fraction is: ",g)
 
 # print("Remander is: "(a%b))
-print("Remander is: ",g)
+print("Remander is: ",h)

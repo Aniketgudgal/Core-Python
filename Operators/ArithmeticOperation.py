@@ -1,4 +1,4 @@
-'''Q 3. Write a java program to enter two numbers and perform all arithmetic operations. '''
+'''Q 3. Write a python program to enter two numbers and perform all arithmetic operations. '''
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 c = a+b;
