@@ -1,4 +1,4 @@
-''' Q26. Write a java program to Check Number Is Spy Number or Not.
+''' Q26. Write a python program to Check Number Is Spy Number or Not.
 Example :
 A number is said to be a Spy number if the sum of all the digits is equal to the product of all digits.
      Input : 1412

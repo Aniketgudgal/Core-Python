@@ -30,6 +30,11 @@ sum += rem
 product *= rem
 num //= 10
 
+rem = num % 10
+sum += rem
+product *= rem
+num //= 10
+
 if sum == product:
 	print("The number is Spy")
 else:
