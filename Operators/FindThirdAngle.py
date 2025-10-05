@@ -1,4 +1,4 @@
-''' Q9. Write a java program to enter two angles of a triangle and find the third angle.  '''
+''' Q9. Write a python program to enter two angles of a triangle and find the third angle.  '''
 
 angle1 = int(input("Enter the first angle of triangle: "))
 angle2 = int(input("Enter the second angle of triangle: "))
