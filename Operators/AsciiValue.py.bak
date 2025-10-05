@@ -1,5 +1,5 @@
 ''' Q16. Write a python program to print the ASCII value of a given character. '''
 
-a = input("Enter the character: ")[0] # take first index of array
+a = input("Enter the character: ")[0]
 b = ord(a) # this function return the ascii value if a character
 print("ASCII value of",a," is: ",b)
