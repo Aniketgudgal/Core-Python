@@ -1,4 +1,4 @@
-''' Q15. Write a java program swap two number without using third variable.  '''
+''' Q15. Write a python program swap two number without using third variable.  '''
 
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
