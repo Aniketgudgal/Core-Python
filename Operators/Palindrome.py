@@ -1,0 +1,23 @@
+''' Q25. Write a python program to check whether number is palindrome or not.  '''
+
+num = int(input("Enter the 3 digit number: "))
+temp = num
+rev = 0
+rem = 0
+
+rem = num % 10
+rev = rev*10 + rem
+num //= 10
+
+rem = num % 10
+rev = rev*10 + rem
+num //= 10
+
+rem = num % 10
+rev = rev*10 + rem
+num //= 10
+
+if rev == temp:
+	print("Number is palindrome")
+else:
+	print("not a palindrome")
