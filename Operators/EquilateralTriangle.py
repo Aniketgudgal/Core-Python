@@ -1,4 +1,4 @@
-'''Q10. Write a java program to calculate area of an equilateral triangle. '''
+'''Q10. Write a python program to calculate area of an equilateral triangle. '''
 
 length = int(input("Enter the length of equilateral triangle: "))
 

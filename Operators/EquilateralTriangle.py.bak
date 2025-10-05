@@ -2,6 +2,6 @@
 
 length = int(input("Enter the length of equilateral triangle: "))
 
-area = (1.73/4)*length
+area = (1.73/4)*(length*length)
 
 print("Area of Equilateral triangle is: ",area)
