@@ -4,7 +4,7 @@ diameter=2 * radius;
 circumference = 2 * 3.14 * radius; 
 area = 3.14 * radius * radius; '''
 
-radius = flaot(input("Enter the radius of circle: "))
+radius = float(input("Enter the radius of circle: "))
 
 diameter = 2 * radius
 print("The Diameter of circle is: ",diameter)
