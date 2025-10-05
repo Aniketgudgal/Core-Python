@@ -1,0 +1,16 @@
+''' Q27. Write a python program that takes an alphabet character and toggles its case using ASCII values and operators.
+        Example: a → A, Z → z. '''
+
+ch = input("Enter the character: ")
+
+if ch >= 'a' and ch <= 'z':
+    n = ord(ch)
+    ch = chr(n - 32)
+    print(ch)
+elif ch >= 'A' and ch <= 'Z':
+    ch = ord(ch)
+    ch = ch + 32
+    ch = chr(ch)
+    print(ch)
+else:
+    print("Invalid input")
