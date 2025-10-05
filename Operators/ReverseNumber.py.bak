@@ -7,15 +7,15 @@ rev:int = 0
 rem:int = 0
 rem = num % 10
 rev = rev* 10 + rem
-num /= 10
+num //= 10
 
 rem = num % 10
 rev = rev* 10 + rem
-num /= 10
+num //= 10
 
 rem = num % 10
 rev = rev* 10 + rem
-num /= 10
+num //= 10
 
 print(type(rev))
 print("Reverse number is: ",rev)
