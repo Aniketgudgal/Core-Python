@@ -1,4 +1,4 @@
-'''Q 4. Write a python program to enter length and breadth of a rectangle and find its area.
+'''Q 4. Write a java program to enter length and breadth of a rectangle and find its area.
 Formula - area= length * breadth; '''
 
 length = int(input("Enter the length of rectangle: "))
