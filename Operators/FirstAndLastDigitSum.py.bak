@@ -1,0 +1,14 @@
+''' Q23. Write a python program to calculate sum of first and last digit of a number without using loop.
+Input : 123
+Output : 4   '''
+
+num = 321
+sum = 0
+
+last = num % 10
+
+num //= 100
+first = num % 10
+
+sum = first + last
+print("The sum is: ",sum);
