@@ -1,0 +1,10 @@
+'''Q17. Write a python program to convert seconds to hours, minutes and seconds. '''
+
+time = int(input("Enter the seconds: "))
+
+hours = time*3600
+
+minutes = time*60
+
+print("The hours is: ",hours)
+print("The minutes is: ",minutes)
