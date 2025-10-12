@@ -17,7 +17,10 @@ This repository serves as:
 ```
 Core-Python/
 ├── README.md              # Main documentation (this file)
-└── Operators/             # Programs demonstrating operators and basic concepts
+├── Operators/             # Programs demonstrating operators and basic concepts
+│   ├── README.md          # Detailed problem statements
+│   └── *.py               # Python solution files
+└── DecisionMaking/        # Programs demonstrating decision-making concepts
     ├── README.md          # Detailed problem statements
     └── *.py               # Python solution files
 ```
@@ -88,6 +91,26 @@ Core-Python/
 | 28 | Net Salary | `NetSalaryEmployee.py` | Calculate net salary of an employee |
 | 29 | Quotient & Remainder | `FindQAndR.py` | Find quotient and remainder using arithmetic operators |
 | 30 | Multiple Check | `MultipleOrNot.py` | Check if number is multiple of both 3 and 5 |
+
+### Decision Making
+
+| #  | Program Name | File | Description |
+|----|--------------|------|-------------|
+| 31 | Even or Odd | `EvenOdd.py` | Check if a number is even or odd |
+| 32 | Leap Year | `LeapYear.py` | Check if a year is a leap year |
+| 33 | Positive or Negative | `PosNeg.py` | Determine if a number is positive, negative, or zero |
+| 34 | Largest of Three | `LargestOfThree.py` | Find the largest of three numbers |
+| 35 | Grade Calculator | `GradeCalculator.py` | Calculate grade based on marks |
+| 36 | Valid Triangle | `ValidTriangle.py` | Check whether a triangle is valid or not |
+| 37 | Triangle Type | `TriangleType.py` | Check if a triangle is equilateral, isosceles, or scalene |
+| 38 | Divisibility Check | `DivisibilityCheck.py` | Check if a number is divisible by 5 and 11 |
+| 39 | Alphabet Check | `AlphabetCheck.py` | Check whether a character is alphabetic or not |
+| 40 | Profit or Loss | `ProfitOrLoss.py` | Check profit or loss based on cost price and selling price |
+| 41 | Vowel or Consonant | `VowelOrConsonant.py` | Check if an alphabet is a vowel or consonant |
+| 42 | Character Type | `CharacterType.py` | Check if a character is an alphabet, digit, or special character |
+| 43 | Voting Eligibility | `VotingEligibility.py` | Determine if a candidate is eligible to vote |
+| 44 | Equality Check | `EqualityCheck.py` | Check if two integers are equal |
+| 45 | Gross Salary | `GrossSalary.py` | Calculate gross salary based on basic salary |
 
 ## 🚀 Getting Started
 
@@ -173,6 +196,13 @@ For beginners, we recommend following this learning path:
    - ASCII operations
    - Complex calculations
 
+5. **Decision Making** (Programs 31-35)
+   - Even or Odd determination
+   - Leap year calculation
+   - Positive/Negative number identification
+   - Largest of three numbers
+   - Grade calculation based on marks
+
 ## 🔍 Key Concepts Covered
 
 - **Data Types**: int, float, bool, str, chr
@@ -183,6 +213,7 @@ For beginners, we recommend following this learning path:
 - **Number Manipulation**: Extracting digits, reversing numbers
 - **ASCII Operations**: Character manipulation using ASCII values
 - **Algorithm Basics**: Swap techniques, digit operations
+- **Decision Making**: if-else conditions, logical reasoning
 
 ## 📝 Program Descriptions
 
@@ -196,6 +227,23 @@ For beginners, we recommend following this learning path:
 
 **Palindrome Number**: A number that reads the same forwards and backwards.
 - Example: 121, 1331, 12321
+
+### Decision Making Concepts
+
+**Even or Odd**: Determines if a number is even (divisible by 2) or odd.
+- Example: 4 is even, 7 is odd
+
+**Leap Year**: A year is a leap year if divisible by 4, but not every year divisible by 100, except if also divisible by 400.
+- Example: 2000 and 2020 are leap years, 1900 is not
+
+**Positive, Negative, or Zero**: Classifies a number as positive (>0), negative (<0), or zero (=0).
+- Example: -5 is negative, 3 is positive, 0 is neither
+
+**Largest of Three**: Finds the largest number among three given numbers.
+- Example: Among 3, 7, and 5, the largest is 7
+
+**Grade Calculation**: Assigns a grade based on marks using if-elif-else conditions.
+- Example: 85 marks → Grade A, 70 marks → Grade B
 
 ## 🤝 Contributing
 
