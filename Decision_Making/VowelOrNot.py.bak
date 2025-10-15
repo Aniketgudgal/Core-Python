@@ -1,6 +1,6 @@
 #Q9. Write a Python program to input any alphabet and check whether it is vowel or consonant.
 
-ch = input("Enter the character: ")[0]
+ch = input("Enter the character: ")
 
 if ch == 'A' or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U':
 	print("The Alphabet is vowel")
