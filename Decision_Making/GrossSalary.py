@@ -1,0 +1,17 @@
+'''  Q14. Write a Python program to input the basic salary of an employee and calculate its Gross salary according to the following.
+                                	Basic Salary <= 10000 : HRA = 20%, DA = 80%
+                                	Basic Salary <= 20000 : HRA = 25%, DA = 90%
+                                	Basic Salary > 20000 : HRA = 30%, DA = 95%
+'''
+
+salary = int(input("Enter the salary of Employee: "))
+
+if salary <= 10000:
+	newSalary:int = ((20/100)*salary) + ((80/100)*salary)
+	print("Gross Salary of Employee is: ",(salary+newSalary))
+elif salary <= 20000 and salary > 10000:
+	newSalary:int = ((25/100)*salary) + ((90/100)*salary)
+	print("Gross Salary of Employee is: ",(salary+newSalary))
+else:
+	newSalary:int = ((30/100)*salary) + ((95/100)*salary)
+	print("Gross Salary of Employee is: ",(salary+newSalary))
