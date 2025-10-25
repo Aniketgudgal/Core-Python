@@ -1,0 +1,10 @@
+#Q20. Given a number, print Perfect Square if its square root is an integer, otherwise Not Perfect Square
+import math
+n = int(input("Enter the number: "))
+
+sqr = math.sqrt(n)
+
+if sqr*sqr == n:
+	print("Given Number is Perfect Square")
+else:
+	print("Not a Perfect Square")
