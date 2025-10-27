@@ -1,0 +1,18 @@
+#Q22. Write a Python program to check whether a number is palindrome or not. 
+
+num = int(input("Enter the number 3 digit number: "))
+
+temp = num 
+rev = temp % 10
+temp //= 10
+
+rev += temp % 10
+
+temp //= 10
+
+rev += temp % 10 
+
+if num == rev:
+	print("The Given Number is Palindrome")
+else:
+	print("Not A Palindrome")
