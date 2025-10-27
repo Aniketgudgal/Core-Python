@@ -1,0 +1,19 @@
+'''Q21. Write a Python program to check whether a number is neon or not.      	
+        	Input : 9
+        	Output : Neon Number
+        	Explanation: square is 9*9 = 81 and
+        	The sum of the digits of the square is 9.   '''
+
+num = int(input("Enter the number: "))
+
+sqr = num * num # 9*9=81
+
+check = sqr % 10 # check = 1 
+sqr = sqr // 10 # sqr = 8
+check = check + sqr % 10 # 1 + 8 = 9 
+
+if num == check: # 9 == 9 = true
+	print("The Given Number is Neon")
+else:
+	print("Not Neon Number")
+	
