@@ -7,4 +7,5 @@ class B(A):
         
 
 obj = B()
+
 obj.m2()
